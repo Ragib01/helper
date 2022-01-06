@@ -1,0 +1,27 @@
+site_name: RSDocs
+repo_url: https://github.com/Ragib01/rsdocs
+site_url: https://ragib01.github.io/rsdocs/
+nav:
+  - Home: index.md
+  - Django: django.md
+  - Laravel: 
+            Database:
+                  - laravel/database.md
+            Controller:
+                  laravel/controller.md
+            Route:
+                  laravel/routes.md
+            Queue:
+                  laravel: laravel/laravel-queue.md
+                  lumen: laravel/lumen-queue.md
+  - Server:
+            Port: server/port.md
+            
+  - Search Platform:
+            apache solr:
+                  Shell: search-platform/apache-solr/shell.md
+                  Error: search-platform/apache-solr/error.md
+                  Solr with MySQL: search-platform/apache-solr/mysql.md
+  - Git:
+            Fatal:
+                  git/fatal.md
